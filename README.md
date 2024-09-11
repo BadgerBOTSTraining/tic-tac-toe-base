@@ -13,6 +13,5 @@ Create a program that simulates a game of Tic-Tac-Toe between two human players.
  - At least 1 should have a return type.
 
 ### Above and Beyond (If you have prior programming experience or finish early)
- - Implement game with 2D arrays
  - Make an option to play against a bot.
  - Create another small game (like connect 4).
