@@ -2,6 +2,7 @@
 
 Create a program that simulates a game of Tic-Tac-Toe between two human players.
 
+SLIDES: https://docs.google.com/presentation/d/1zYNWc0aYIWFyJuAfpWwt3sWQIAUsGW_TbxHzzgZym14/edit#slide=id.g2837601505d_0_78
 
 ### The program should:
  - Show the board before or after each move.
