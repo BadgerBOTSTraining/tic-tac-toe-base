@@ -14,7 +14,10 @@ public class TicTacToe {
     //run the game here
 
 
-    gameLoop();
+    
+    if (true) { //add your end condition here
+      gameLoop();
+    }
   }
 
   ///Create a method to check win (Not as bad as it seems, there are only 8 win patterns).
