@@ -1,16 +1,27 @@
 public class TicTacToe {
-  int[] board = new int[9];
-  /** board space ids
+  int[] board = new int[9]; //the board is represented by an array with nine slots
+  /** board space IDs
   0 | 1 | 2
   3 | 4 | 5
   6 | 7 | 8
-  Set the space to 0 for empty, 1 for X, 2 for O */
+  I would recommend setting the space to 0 for empty, 1 for X, 2 for O */
   
   public static void main(String args) {
-    //run game loop here
+    gameLoop();
   }
 
-  private static boolean checkWin() {
-    //check the board and return true if game is over.
+  public static void gameLoop() {
+    //run the game here
+
+
+    gameLoop();
   }
+
+  ///Create a method to check win (Not as bad as it seems, there are only 8 win patterns).
+
+  
+  ///Create a method to play a piece
+
+  
+  ///Don't restrict yourself to these methods, I would definitely recommend more if it's easier.
 }
