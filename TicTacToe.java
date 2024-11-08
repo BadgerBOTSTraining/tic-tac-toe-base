@@ -1,12 +1,13 @@
-public class TicTacToe {
-  int[] board = new int[9]; //the board is represented by an array with nine slots
-  /** board space IDs
+public class Main {
+  char[] board = new char[9]; //the board is represented by an array with nine slots
+  /* board space IDs
   0 | 1 | 2
   3 | 4 | 5
   6 | 7 | 8
-  I would recommend setting the space to 0 for empty, 1 for X, 2 for O */
+  */
   
-  public static void main(String args) {
+  public static void main(String[] args) {
+    for(int i = 0; i < 9; i++) { board[i] = ' '; } //filling the board with spaces
     gameLoop();
   }
 
@@ -18,12 +19,15 @@ public class TicTacToe {
     if (false) return; //add your end condition here
     gameLoop()
   }
-
-  ///Create a method to check win (Not as bad as it seems, there are only 8 win patterns).
-
   
   ///Create a method to play a piece
 
   
-  ///Don't restrict yourself to these methods, I would definitely recommend more if it's easier.
+  ///Create a method to print the board
+
+  
+  ///Create a method to check win (Not as bad as it seems, there are only 8 win patterns).
+  
+  
+  ///Don't restrict yourself to these methods, I would definately recommend more if it's easier.
 }
